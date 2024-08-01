@@ -1,0 +1,160 @@
+
+* {
+  box-sizing: border-box;
+}
+
+h2, h1, p, ul {
+  margin: 0px;
+  padding: 0;
+}
+body {
+  font-size: 20px;
+  font-family: HelveticaNeueCyr;
+  font-weight: 400;
+}
+
+input::placeholder,
+textarea::placeholder{
+  font-family: HelveticaNeueCyr;
+  font-weight: 400;
+}
+
+
+@media (max-width: 1570px) {
+  body {
+      font-size: 1.275vw;
+  }
+}
+
+.app {
+  position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 162px;  
+}
+
+@media (max-width: 1570px) {
+  .app-header {
+    height: 8.5vw;
+  }
+}
+
+
+.app-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 713px;
+}
+
+@media (max-width: 767px) {
+  .app-section {
+    padding-top: 5.5vw;
+  }
+}
+
+/* .app-title { */
+  /* line-height: 42.48px; */
+  /* font-weight: 600; */
+/* } */
+
+.container-box {
+    max-width: 1592px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+@media (max-width: 1359px) {
+  .container-box {
+    padding: 0 1vw;
+  }
+}
+
+/* .app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} */
+
+
+/* .app-main {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.app-left-column {
+  flex: 1;
+  flex-basis: 35%;
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.app-right-column {
+  flex: 1;
+  flex-basis: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-block {
+  padding: 20px;
+  margin: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1024px) {
+  .app-main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .app-left-column,
+  .app-right-column {
+    flex-basis: 100%;
+    align-self: unset;
+  }
+} */
+
+.error {
+  border-color: red;
+}
+
+.background {
+  background: linear-gradient(117.79deg, #fff -22.73%, #d6dfff 126.83%);
+}
+
+
+
+.error {
+  position: absolute;
+  bottom: 0px;
+  font-size: 16px;
+  color: rgb(255, 86, 86);
+  z-index: 20;
+}
+
+.error2 {
+  position: absolute;
+  font-size: 16px;
+  color: rgb(255, 86, 86);
+  z-index: 20;
+}
+
+
+.inputWrapper, .wrapp {
+  position: relative;
+}

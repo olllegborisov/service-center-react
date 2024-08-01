@@ -1,0 +1,32 @@
+.button {
+    outline: 0;
+    border: 0;
+    background: unset;
+    background-color: #2468ff;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 28px;
+    padding: 27px 66px;
+    border-radius: 10px;
+    transition: box-shadow .1s ease-in-out, transform .05s ease-in;
+    margin-top: 46px;
+}
+@media (max-width: 1570px){
+    .button {
+        margin-top: 2.95vw;
+        margin-bottom: 6.5vw;
+        font-size: 1.78vw;
+        padding: 1.7vw 4.2vw;
+    }
+}
+@media (max-width: 767px) {
+    .button {
+        margin-top: 7.5vw;
+        font-size: 5.04vw;
+        padding: 4.4vw 25.2vw;
+        margin-left: 0;
+        border-radius: 8px;
+        margin-bottom: 0vw;
+    }
+}
